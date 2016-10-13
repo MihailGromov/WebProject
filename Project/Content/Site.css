@@ -2,72 +2,59 @@
 body {
     padding-top: 50px;
     padding-bottom: 20px;
+    background-color: #ededed;
 }
 
-.carousel {
-    background-color:pink;
-    overflow: hidden;
+.navbar + div {
+  margin-top: 70px;
 }
 
-.carousel-inner .item img {
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-}
-[class*='col-'] {
-    padding: 0 !important;
+.container .jumbotron {
+  background-color: #808080;
+  height: 400px;
 }
 
-.event {
-    height: 200px;
-    position: relative;
-    background-color: silver;
-    margin: 0;
-    padding: 0 !important;
+.container--white {
+  background-color: #fff;
+  padding-top: 10px;
+}
+footer {
+  background-color: #222;
+  color: #fff;
+}
+.text-vcenter {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 400px;
+  text-align: center;
+}
+.row {
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+.nostyle {
+  list-style: none;
+}
+.nostyle li {
+  margin-bottom: 5px;
+}
+.nostyle li a {
+  color: #c0c0c0;
+}
+.nostyle li a:hover {
+  color: #fff;
 }
 
-.thumbnail__img {
-    min-height: 200px;
-    width: 100%;
-    background-color: red;
-}
-
-.img-thumbnail{
-    width: 100%;
-}
-
-.posts > div > .post {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-    min-height: 100px;
-    margin: 2em;
-    padding: 2em;
-    box-shadow: 0 0 5px silver;
-}
-
-.logo {
-    height: 100px;
-    background-color: grey;
-}
-
-.post::after {
-    clear: both;
-    content: "";
-    display: table;
-}
-
-.post__image {
-    width: 50%;
-    height: 200px;
-    background-color: silver;
-    object-fit: cover;
-}
-
-.post__text {
-    width: 50%;
-    padding: 10px;
-}
 
 /* Wrapping element */
 /* Set some basic padding to keep content from hitting the edges */

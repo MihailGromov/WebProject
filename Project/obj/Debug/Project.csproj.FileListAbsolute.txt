@@ -64,3 +64,13 @@ D:\College\WebProject\Project\Project\bin\Microsoft.Owin.Security.OAuth.xml
 D:\College\WebProject\Project\Project\obj\Debug\Project.csprojResolveAssemblyReference.cache
 D:\College\WebProject\Project\Project\obj\Debug\Project.dll
 D:\College\WebProject\Project\Project\obj\Debug\Project.pdb
+D:\College\WebProject\Project\Project\bin\System.Web.Helpers.dll
+D:\College\WebProject\Project\Project\bin\System.Web.Razor.dll
+D:\College\WebProject\Project\Project\bin\System.Web.WebPages.Deployment.dll
+D:\College\WebProject\Project\Project\bin\System.Web.WebPages.dll
+D:\College\WebProject\Project\Project\bin\System.Web.WebPages.Razor.dll
+D:\College\WebProject\Project\Project\bin\System.Web.Helpers.xml
+D:\College\WebProject\Project\Project\bin\System.Web.Razor.xml
+D:\College\WebProject\Project\Project\bin\System.Web.WebPages.xml
+D:\College\WebProject\Project\Project\bin\System.Web.WebPages.Deployment.xml
+D:\College\WebProject\Project\Project\bin\System.Web.WebPages.Razor.xml
