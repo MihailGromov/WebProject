@@ -1,27 +1,49 @@
 ﻿/* Move down content because we have a fixed navbar that is 50px tall */
-body {
-    padding-top: 50px;
-    padding-bottom: 20px;
-    background-color: #ededed;
-}
-
-.navbar + div {
-  margin-top: 70px;
-}
-
-.container .jumbotron {
-  background-color: #808080;
-  height: 400px;
-}
-
-.container--white {
-  background-color: #fff;
-  padding-top: 10px;
-}
 footer {
-  background-color: #222;
-  color: #fff;
+    background-color: #222;
+    color: silver;
+    padding: 30px 0;
 }
+
+.body-content {
+    margin-top: 100px;
+}
+
+body > form > .body-content {
+    min-height: 100vh;
+}
+
+.bg-red {
+    color: crimson;
+}
+
+.thead-inverse {
+    background-color: #444;
+    color: #fff;
+}
+
+a.thumbnail {
+    margin-bottom: 30px;
+}
+
+.carousel-inner .item img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    object-position: center center;
+}
+
+.carousel {
+    overflow: hidden;
+}
+
+a.thumbnail:hover {
+    text-decoration: none;
+    box-shadow: 0 0 5px silver;
+    border: 1px solid rgba(0, 0, 0, .2);
+}
+
+
 .text-vcenter {
   display: -webkit-box;
   display: -webkit-flex;
@@ -37,22 +59,6 @@ footer {
           justify-content: center;
   height: 400px;
   text-align: center;
-}
-.row {
-  padding-bottom: 50px;
-  padding-top: 50px;
-}
-.nostyle {
-  list-style: none;
-}
-.nostyle li {
-  margin-bottom: 5px;
-}
-.nostyle li a {
-  color: #c0c0c0;
-}
-.nostyle li a:hover {
-  color: #fff;
 }
 
 
